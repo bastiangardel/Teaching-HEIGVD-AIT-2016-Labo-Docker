@@ -67,5 +67,5 @@ EXPOSE 80 1936
 # Define an environment variable
 ENV ROLE balancer
 
-# This will start S6 as our main process in our container
+# This will start 4S6 as our main process in our container
 ENTRYPOINT ["/init"]
